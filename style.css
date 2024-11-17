@@ -1,0 +1,35 @@
+.watch{
+    margin:100px auto;
+    padding :10px;
+    color: black;
+    background-color: grey;
+    height: 200px;
+    width: 500px;
+    border-radius: 15px;
+}
+p{
+    text-align: center;
+    font-size: 3rem;
+}
+.btn{
+    margin-top :30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+button{
+    border-radius: 15px;
+    padding: 15px;
+    border: none;
+background-color: #28A745;
+transition: background-color 0.2s ease-in-out;
+width: 100px;
+height: 45px; 
+color: #F5F5F5;
+}
+
+button:hover{
+    background-color: rgba(40, 167, 69, 0.6);
+    cursor: pointer;
+}
